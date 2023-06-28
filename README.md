@@ -21,6 +21,16 @@ or
   ./bootstrap.sh
 ```
 
+or (no git alternative)
+
+```
+    export VIM_MINIMAL_HOME=~/.config/vim-minimal && \
+    wget https://github.com/gmatheu/vim-minimal/archive/refs/heads/main.zip &&\
+    unzip main.zip &&\
+    mv vim-minimal-main ${VIM_MINIMAL_HOME} && \
+    ./bootstrap.sh
+```
+
 ## Upgrade
 
 ```
