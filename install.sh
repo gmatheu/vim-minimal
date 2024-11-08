@@ -22,7 +22,7 @@ check_bin() {
 
 
 install() {
-    local exists=$(check_bin $bin)
+    local exists=$(check_bin git)
     if [ "$exists" = "true" ]; then
       if [ ! -d "$VIM_CONFIG_HOME" ];
       then
