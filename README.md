@@ -1,6 +1,6 @@
 # vim-minimal
 
-Bare minimum vim setup, targetting most of the useful features when accesing a remote server
+Bare minimum Vim setup, targetting most of the useful features when accessing a remote server
 
 # Requirements
 
@@ -9,7 +9,7 @@ Bare minimum vim setup, targetting most of the useful features when accesing a r
 ## Setup
 
 ```
-curl -sL https://raw.githubusercontent.com/gmatheu/vim-minimal/master/install.sh | sh
+curl -sL https://raw.githubusercontent.com/gmatheu/vim-minimal/main/install.sh | sh
 ```
 
 or 
